@@ -1,0 +1,12 @@
+.mapContainer {
+  height: 100vh;
+}
+
+.countryName {
+  display: flex;
+  align-items: center;
+}
+
+.countryName img {
+  margin-right: 6px;
+}
