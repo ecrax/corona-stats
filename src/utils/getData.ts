@@ -1,8 +1,6 @@
 import axios from "axios";
 
-export const getData = async () => {
-  const url: string = "https://disease.sh/v3/covid-19/countries";
-
+export const getData = async (url: string) => {
   try {
     const response = await axios.get(url);
     return response.data;

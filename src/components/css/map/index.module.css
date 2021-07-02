@@ -1,5 +1,13 @@
 .mapContainer {
-  height: 100vh;
+  height: 50vh;
+  background-color: #191a1a;
+}
+
+.leaflet-container {
+  background-color: #191a1a;
+}
+#map div {
+  background-color: #191a1a;
 }
 
 .countryName {

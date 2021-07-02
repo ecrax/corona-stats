@@ -10,3 +10,13 @@ body {
 .leaflet-container {
   background-color: #191a1a;
 }
+
+#statsTable {
+  text-align: center;
+}
+
+#statsTable table {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}

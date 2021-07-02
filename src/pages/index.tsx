@@ -1,11 +1,12 @@
 import React from "react";
 
-import { Map } from "components/css";
+import { Map, Stats } from "components/css";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div id="map">
       <Map />
+      <Stats />
     </div>
   );
 };
